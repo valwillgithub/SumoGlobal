@@ -21,7 +21,7 @@ class AddRemovePage {
     if (num < 1) {
       throw "number must be 1 or more";
     }
-    for (let i = 1; i <= num; i++) {
+    for (let k = 1; k <= num; k++) {
       this.add.click();
     }
   }
