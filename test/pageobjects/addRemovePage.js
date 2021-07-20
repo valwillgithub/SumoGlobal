@@ -26,11 +26,11 @@ class AddRemovePage {
     }
   }
 
-  deleteElement(no) {
-    if (no < 1) {
+  deleteElement(num) {
+    if (num < 1) {
       throw "number must be 1 or more";
     }
-    for (let i = 1; i <= no; i++) {
+    for (let i = 1; i <= num; i++) {
       this.deleteButton.click();
     }
   }
