@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "wdio wdio.conf.js || true",
-    "login": "wdio wdio.conf.js --spec ./test/specs/loginTest4.js",
+    "login": "wdio wdio.conf.js --spec ./test/specs/loginTest5.js",
     "add": "wdio wdio.conf.js --spec ./test/specs/addRemoveTest.js",
     "allure": "allure generate allure-results --clean && allure open"
   },
